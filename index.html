@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <form id="blogForm">
-        <label for="">User</label>
-        <input type="text" id="username">
-        <label for="">Title</label>
-        <input type="text" id="title">
-        <labet for="">Content</labet>
-        <input type="text" id="content">
-        <button type="submit">Submit</button>
-    </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What's on your mind?</title>    
+    <link rel="stylesheet" href="./Assets/css/styles.css" />
+    <link rel="stylesheet" href="./Assets/css/form.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <aside>
+        <h1>My First Blog</h1>
+      </aside>
+      <div>
+        <h2>What's on your mind?</h2>
+        <form id="blogForm">
+          <label for="">Username</label>
+          <input type="text" id="username" />
+          <label for="">Title</label>
+          <input type="text" id="title" />
+          <label for="">Content</label>
+          <textarea type="text" id="content" rows="3"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
     <script src="./Assets/js/form.js"></script>
-</body>
+  </body>
 </html>

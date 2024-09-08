@@ -1,14 +1,14 @@
-const username = document.getElementById('username');
-const title = document.getElementById('title');
-const content = document.getElementById('content');
-const blogForm = document.getElementById('blogForm')
+const usernameEl = document.getElementById('username');
+const titleEl = document.getElementById('title');
+const contentEl = document.getElementById('content');
+const blogFormEl = document.getElementById('blogForm')
 
 blogForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
-    const titleValue = title.value;
-    const usernameValue = username.value;
-    const contentValue = content.value;
+    const titleValue = titleEl.value;
+    const usernameValue = usernameEl.value;
+    const contentValue = contentEl.value;
 
     const blogPost = {
         username: usernameValue,
