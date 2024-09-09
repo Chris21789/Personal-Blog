@@ -7,18 +7,23 @@ header {
     padding-left: 20px;
 }
 
-#navbar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    list-style-type: none;
-    font-size: x-large;
-};
+#back {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+#mode {
+    background-color:rgb(49, 49, 49);
+}
 
 .dark {
     background-color: black;
+    height: 100vh;
+    color: white;
 }
 
 .light {
     background-color:  white;
+    height: 100vh;
+    color: black;
 }

@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog Entries</title>
     <link rel="stylesheet" href="./Assets/css/styles.css" />
     <link rel="stylesheet" href="./Assets/css/blog.css" />
-</head>
-<body>
-    <header>
+  </head>
+  <body>
+    <div class="container light">
+      <header>
         <h1>My First Blog</h1>
         <nav>
-            <ul id="navbar">
-                <li id="back">Back</li>
-                <li id="mode" style="font-size: x-large;">&#127769;</li>
-            </ul>
+          <a href="./index.html"
+            ><button id="back" style="font-size: x-large">
+              &#8592;Back</button></a>
+          <button id="mode" style="font-size: x-large">&#127769;</button>
         </nav>
-    </header>
-    <div>
-        <ul id="blogEntries"></ul>
-    </div>
-    <footer>
+      </header>
+      <main>
+        <div>
+          <ul id="blogEntries"></ul>
+        </div>
+      </main>
+      <footer>
         <h4>Made by Christopher Colon</h4>
         <div>
-            <p>
-                <strong>Portfolio:</strong> </br>
-                <strong>Blog:</strong> Full-Stack Blog</br>
-                <strong>Email:</strong> ccolon.seo@gmail.com></br>
-            </p>
+          <p>
+            <strong>Portfolio:</strong><br />
+            <strong>Blog:</strong> Full-Stack Blog<br />
+            <strong>Email:</strong> ccolon.seo@gmail.com>
+          </p>
         </div>
-    </footer>
+      </footer>
+    </div>
     <script src="./Assets/js/logic.js"></script>
     <script src="./Assets/js/blog.js"></script>
-</body>
+  </body>
 </html>
