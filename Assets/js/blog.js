@@ -7,9 +7,17 @@ function renderEntries() {
     
     for (let i = 0; i < entries.length; i++) {
         const li = document.createElement('li');
-        li.textContent = `${entries[i].title}${entries[i].content}${entries[i].username}`;
+        const h1li = document.createElement('h1');
+        const pli = document.createElement('p');
+        const h3li = document.createElement('h3');
+        h1li.textContent = `${entries[i].title}`;
+        pli.textContent = `${entries[i].content}`;
+        h3li.textContent = `Posted by: ${entries[i].username}`;
         li.setAttribute('data-index', i);
 
+        li.appendChild(h1li);
+        li.appendChild(pli);
+        li.appendChild(h3li);
         blogEntries.appendChild(li);
     }
 };
