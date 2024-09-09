@@ -20,3 +20,4 @@ blogForm.addEventListener('submit', (event) => {
 
     window.location.assign("./blog.html");
 });
+

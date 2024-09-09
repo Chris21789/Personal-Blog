@@ -7,9 +7,3 @@ const listEl = document.createElement('ul');
 const liEl = document.createElement('li');
 const footerEl = document.createElement('footer');
 
-headerEL.textContent = `My First Blog`;
-body.appendChild(headerEL);
-
-navEl.textContent = `Back`;
-headerEL.appendChild(navEl);
-
