@@ -19,6 +19,17 @@ No installation required simply visit: [https://chris21789.github.io/Personal-Bl
 
 Sections must be filled out in order to submit a blog posting. There is also a light and dark mode in the top right hand corner.
 
+## Screenshots
+
+![Homepage lightmode](./Assets/screenshots/Homepage%20light.png)
+
+![Homepage darkmode](./Assets/screenshots/Homepage%20dark.png)
+
+![Blogpage lightmode](./Assets/screenshots/Blogpage%20light.png)
+
+![Blogpage darkmode](./Assets/screenshots/Blogpage%20dark.png)
+
+
 ## Contributing
 
 Any input for improvements would be a great contribution.
