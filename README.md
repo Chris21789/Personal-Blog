@@ -9,12 +9,11 @@ This is a blog posting application that allows users to post whatever is on thei
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 ## Installation
 
->npm i
+No installation required simply visit: [https://chris21789.github.io/Personal-Blog/](https://chris21789.github.io/Personal-Blog/).
 
 ## Usage
 
@@ -23,10 +22,6 @@ Sections must be filled out in order to submit a blog posting. There is also a l
 ## Contributing
 
 Any input for improvements would be a great contribution.
-
-## Tests
-
->node index.js
 
 ## Questions
 
